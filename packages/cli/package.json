@@ -1,0 +1,33 @@
+{
+  "name": "klair-watch",
+  "version": "0.2.0",
+  "description": "KLAIR CLI — Terminal interface for AI code observability",
+  "type": "module",
+  "bin": {
+    "klair": "./bin/klair.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "start": "node ./bin/klair.js",
+    "dev": "bun run src/index.tsx"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.2.14",
+    "@opentui/react": "^0.2.14",
+    "react": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

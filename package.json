@@ -1,0 +1,8 @@
+{
+  "name": "klair",
+  "private": true,
+  "workspaces": [
+    "packages/cli",
+    "packages/daemon"
+  ]
+}
