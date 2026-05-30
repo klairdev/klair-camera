@@ -1,0 +1,1 @@
+{"version":3,"file":"settings.d.ts","sourceRoot":"","sources":["../../src/daemon/settings.ts"],"names":[],"mappings":"AAGA,OAAO,KAAK,EAAE,aAAa,EAAE,MAAM,oBAAoB,CAAC;AAMxD,wBAAsB,YAAY,IAAI,OAAO,CAAC,IAAI,CAAC,CAqClD;AAID,wBAAgB,WAAW,IAAI,aAAa,CAS3C;AAID,wBAAgB,cAAc,CAAC,OAAO,EAAE,OAAO,CAAC,aAAa,CAAC,GAAG,IAAI,CAQpE;AAED,wBAAgB,aAAa,IAAI,IAAI,CAMpC"}

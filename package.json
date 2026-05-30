@@ -3,6 +3,7 @@
   "private": true,
   "workspaces": [
     "packages/cli",
-    "packages/daemon"
+    "packages/daemon",
+    "packages/klair"
   ]
 }

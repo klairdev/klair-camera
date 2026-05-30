@@ -1,0 +1,33 @@
+[    1797ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:20100
+[    2140ms] TypeError: DIFF_FNS[type] is not a function
+    at createInitialEvents (http://localhost:3000/src/utils/mock-data.ts:124:27)
+    at http://localhost:3000/src/hooks/use-events.ts:13:21
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:18565:20)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:995:72)
+    at commitHookEffectListMount (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:9409:163)
+    at commitHookPassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:9463:60)
+    at commitPassiveMountOnFiber (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11038:29)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11008:13)
+    at commitPassiveMountOnFiber (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11199:13)
+    at recursivelyTraversePassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11008:13)
+[    2141ms] [WARNING] %s
+
+%s
+ An error occurred in the <Dashboard> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:6963
+[    2143ms] TypeError: DIFF_FNS[type] is not a function
+    at createInitialEvents (http://localhost:3000/src/utils/mock-data.ts:124:27)
+    at http://localhost:3000/src/hooks/use-events.ts:13:21
+    at Object.react_stack_bottom_frame (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:18565:20)
+    at runWithFiberInDEV (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:995:72)
+    at commitHookEffectListMount (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:9409:163)
+    at commitHookPassiveMountEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:9463:60)
+    at reconnectPassiveEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11271:13)
+    at recursivelyTraverseReconnectPassiveEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11238:11)
+    at reconnectPassiveEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11315:13)
+    at recursivelyTraverseReconnectPassiveEffects (http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:11238:11)
+[    2142ms] [WARNING] %s
+
+%s
+ An error occurred in the <Dashboard> component. Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://react.dev/link/error-boundaries to learn more about error boundaries. @ http://localhost:3000/node_modules/.vite/deps/react-dom_client.js?v=55fff566:6963

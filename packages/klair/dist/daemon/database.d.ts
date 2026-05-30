@@ -1,0 +1,23 @@
+import { type Database } from 'sql.js';
+import type { Session, FileEvent, Diff } from '../shared/types.js';
+export declare function initDatabase(): Promise<Database>;
+export declare function getDb(): Database;
+export declare function createSession(session: Session): void;
+export declare function getSession(id: string): Session | undefined;
+export declare function getAllSessions(): Session[];
+export declare function getActiveSession(): Session | undefined;
+export declare function updateSessionStatus(id: string, status: Session['status']): void;
+export declare function clearSessionEvents(sessionId: string): void;
+export declare function getSessionCount(): number;
+export declare function getTotalEventCount(): number;
+export declare function addEvent(event: FileEvent): void;
+export declare function getEvents(sessionId: string, limit?: number): FileEvent[];
+export declare function getEventCount(sessionId: string): number;
+export declare function getEventById(id: string): FileEvent | undefined;
+export declare function addDiff(diff: Diff): void;
+export declare function getDiffByEventId(eventId: string): Diff | undefined;
+export declare function getDiffById(id: string): Diff | undefined;
+export declare function getSetting(key: string): string | undefined;
+export declare function setSetting(key: string, value: string): void;
+export declare function getAllSettings(): Record<string, string>;
+//# sourceMappingURL=database.d.ts.map

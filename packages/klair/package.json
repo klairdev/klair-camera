@@ -1,0 +1,44 @@
+{
+  "name": "klair-watch",
+  "version": "0.4.0",
+  "description": "KLAIR — Observing the Agent Era. Unified daemon + CLI for AI code observability.",
+  "type": "module",
+  "bin": {
+    "klair": "./bin/klair.js"
+  },
+  "main": "./dist/daemon/index.js",
+  "files": [
+    "bin",
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./bin/klair.js run",
+    "dev": "bun run src/cli/index.tsx"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@opentui/core": "^0.2.14",
+    "@opentui/react": "^0.2.14",
+    "chokidar": "^4.0.3",
+    "commander": "^13.1.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "react": "^19.0.0",
+    "simple-git": "^3.27.0",
+    "sql.js": "^1.12.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"toggle.d.ts","sourceRoot":"","sources":["../../../src/cli/components/toggle.tsx"],"names":[],"mappings":"AAEA,UAAU,WAAW;IACnB,KAAK,EAAE,OAAO,CAAC;IACf,KAAK,CAAC,EAAE,MAAM,CAAC;IACf,OAAO,CAAC,EAAE,OAAO,CAAC;CACnB;AAED,wBAAgB,MAAM,CAAC,EAAE,KAAK,EAAE,KAAK,EAAE,OAAO,EAAE,EAAE,WAAW,6BAyB5D"}
