@@ -17,20 +17,7 @@ When you let Claude Code, Cursor, or any agent loose on your codebase, it does i
 
 KLAIR watches everything.
 
-```bash
-npm install -g klair-watch
-klair watch ~/your-project
-```
-
 That's it. Now you see every file change your agent made, with before/after diffs and real-time timeline.
-
-## Features
-
-- **Timeline** — Real-time view of every file change
-- **Diff Viewer** — Before/after code comparison
-- **Dashboard** — Session stats, file counts, event metrics
-- **Settings** — Debounce, ignore patterns, theme
-- **Keyboard + Mouse** — Full navigation support
 
 ## Why KLAIR?
 
@@ -46,42 +33,22 @@ Maintain ownership of your code.
 
 ## Features
 
+- **Timeline** — Real-time view of every file change
+- **Diff Viewer** — Before/after code comparison
+- **Dashboard** — Session stats, file counts, event metrics
+- **Settings** — Debounce, ignore patterns, theme
+- **Keyboard + Mouse** — Full navigation support
 - **Independent** — Works with any agent (Cursor, Claude Code, custom, etc)
 - **Honest** — No vendor spin, just the facts
 - **Local-first** — Everything runs locally, no cloud
 - **Open source** — See exactly how it works
 
-## Quick Start
-
-```bash
-# Install
-npm install -g klair-watch
-
-# Watch a project
-klair watch ~/my-project
-
-# Navigate
-1-4: Switch tabs (Dashboard, Timeline, Diff, Settings)
-↑↓: Navigate within page
-Enter: Select/activate
-Esc: Back
-/: Open command palette
-```
-
 ## Navigation
 
-- **Dashboard** — Session overview, stats, actions
-- **Timeline** — All file changes in real-time
-- **Diff Viewer** — See what changed in code
-- **Settings** — Configure behavior
-
-## Commands
-
-- `/start` — Start watching
-- `/stop` — Stop watching
-- `/reset` — Clear events
-- `/help` — Show help
-- `/quit` — Exit
+- **1-4** — Switch tabs (Dashboard, Timeline, Diff, Settings)
+- **↑↓** — Navigate within page
+- **Enter** — Select/activate
+- **Esc** — Back
 
 ## Status
 
@@ -104,6 +71,10 @@ Esc: Back
 ## License
 
 MIT
+
+---
+
+Built with Node.js, React, OpenTUI, and honest observation.
 
 ---
 
