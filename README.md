@@ -2,6 +2,13 @@
 
 The tool that tells you what your AI agent actually did.
 
+## Quick Start
+
+```bash
+npm install -g klair-watch
+klair watch ~/your-project
+```
+
 ## The Problem
 
 When you let Claude Code, Cursor, or any agent loose on your codebase, it does impressive work in isolation. Then you merge it back and things quietly break. You spend hours debugging what you can't see.
@@ -26,6 +33,18 @@ That's it. Now you see every file change your agent made, with before/after diff
 - **Keyboard + Mouse** — Full navigation support
 
 ## Why KLAIR?
+
+AI coding tools are powerful. But they generate bloat.
+
+Wrapper classes. Configuration systems. Abstractions for things that don't need them.
+
+You don't see it until 70% of your codebase is over-engineered mess.
+
+KLAIR watches what your agent actually does. See every change. Understand every decision. Catch complexity before it compounds.
+
+Maintain ownership of your code.
+
+## Features
 
 - **Independent** — Works with any agent (Cursor, Claude Code, custom, etc)
 - **Honest** — No vendor spin, just the facts
