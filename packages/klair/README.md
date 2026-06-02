@@ -1,73 +1,77 @@
 # KLAIR
 
-**Observing the Agent Era**
+The tool that tells you what your AI agent actually did.
 
-KLAIR is the observability layer for the agentic era. Watch AI agents write code in real-time through a premium terminal interface.
-
-## Installation
+## Quick Start
 
 ```bash
-npm install -g klair
+npm install -g klair-watch
+klair watch ~/your-project
 ```
 
-Or from source:
+## The Problem
 
-```bash
-git clone <repo>
-cd klair-camera
-npm install
-npm run build -w packages/klair
-```
+When you let Claude Code, Cursor, or any agent loose on your codebase, it does impressive work in isolation. Then you merge it back and things quietly break. You spend hours debugging what you can't see.
 
-## Usage
+## The Solution
 
-```bash
-# Start watching a project
-klair run ~/my-project
+KLAIR watches everything.
 
-# Start daemon only (API at http://localhost:4200)
-klair daemon ~/my-project
-```
+That's it. Now you see every file change your agent made, with before/after diffs and real-time timeline.
 
-## Requirements
+## Why KLAIR?
 
-- Node.js >= 22.5
-- Bun (for the TUI interface)
+AI coding tools are powerful. But they generate bloat.
 
-## Architecture
+Wrapper classes. Configuration systems. Abstractions for things that don't need them.
 
-- **Daemon**: Background process that watches file changes, captures git diffs, and serves a REST API
-- **CLI/TUI**: Terminal UI built with OpenTUI + React 19
-- **Database**: SQLite stored at `~/.klair/klair.db`
+You don't see it until 70% of your codebase is over-engineered mess.
 
-## API Endpoints
+KLAIR watches what your agent actually does. See every change. Understand every decision. Catch complexity before it compounds.
 
-| Endpoint | Description |
-|----------|-------------|
-| GET /api/status | Daemon status |
-| GET /api/sessions | List all sessions |
-| GET /api/sessions/active | Get active session |
-| POST /api/sessions | Create new session |
-| GET /api/sessions/:id/events | Get events for session |
-| GET /api/sessions/:id/stats | Get session stats |
-| GET /api/events/:eventId/diff | Get diff for event |
-| GET /api/settings | Get settings |
-| PUT /api/settings | Update settings |
-| GET /api/dashboard | Get dashboard stats |
+Maintain ownership of your code.
 
-## Development
+## Features
 
-```bash
-# Build
-npm run build -w packages/klair
+- **Timeline** — Real-time view of every file change
+- **Diff Viewer** — Before/after code comparison
+- **Dashboard** — Session stats, file counts, event metrics
+- **Settings** — Debounce, ignore patterns, theme
+- **Keyboard + Mouse** — Full navigation support
+- **Independent** — Works with any agent (Cursor, Claude Code, custom, etc)
+- **Honest** — No vendor spin, just the facts
+- **Local-first** — Everything runs locally, no cloud
+- **Open source** — See exactly how it works
 
-# Run TUI in dev mode (with Bun)
-cd packages/klair && bun run dev
+## Navigation
 
-# Start daemon
-node packages/klair/dist/daemon/index.js
-```
+- **1-4** — Switch tabs (Dashboard, Timeline, Diff, Settings)
+- **↑↓** — Navigate within page
+- **Enter** — Select/activate
+- **Esc** — Back
+
+## Status
+
+**v0.4** — MVP shipped May 30, 2026
+
+- ✓ Unified daemon + CLI
+- ✓ Real file watching
+- ✓ Timeline with live events
+- ✓ Diff viewer
+- ✓ Settings management
+- ✓ Open source
+
+## Next (v0.5+)
+
+- Web dashboard (React)
+- AI-powered analysis ("Hey KLAIR, what broke?")
+- VS Code extension
+- Team mode
 
 ## License
 
-Proprietary — KLAIR Engineering
+MIT
+
+---
+
+Built with Node.js, React, OpenTUI, and honest observation.
