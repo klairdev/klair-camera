@@ -9,6 +9,17 @@ npm install -g klair-watch
 klair watch ~/your-project
 ```
 
+## Dashboard
+
+![KLAIR Dashboard](dashboard-preview.png)
+
+Real-time overview of your agent's activity:
+- **Sessions** — Total monitoring sessions
+- **Events** — All file changes tracked
+- **Active Session** — Current project being watched
+- **Top Changed Files** — Most frequently modified files
+- **Recent Events** — Timeline of all changes with timestamps
+
 ## The Problem
 
 When you let Claude Code, Cursor, or any agent loose on your codebase, it does impressive work in isolation. Then you merge it back and things quietly break. You spend hours debugging what you can't see.
