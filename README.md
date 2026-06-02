@@ -75,7 +75,3 @@ MIT
 ---
 
 Built with Node.js, React, OpenTUI, and honest observation.
-
----
-
-Built with Node.js, React, OpenTUI, and honest observation.
