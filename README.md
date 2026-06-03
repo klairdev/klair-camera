@@ -1,3 +1,6 @@
+![KLAIR Logo](https://github.com/klairdev/klair-camera/raw/main/packages/klair/klair-logo.png)
+
+
 # KLAIR
 
 The tool that tells you what your AI agent actually did.
