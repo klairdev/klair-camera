@@ -11,7 +11,7 @@ klair watch ~/your-project
 
 ## Dashboard
 
-![KLAIR Dashboard](dashboard-preview.png)
+![KLAIR Dashboard](https://github.com/klairdev/klair-camera/raw/main/packages/klair/dashboard-preview.png)
 
 Real-time overview of your agent's activity:
 - **Sessions** — Total monitoring sessions
